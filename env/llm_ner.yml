@@ -1,0 +1,8 @@
+name: llm_ner
+channels:
+  - defaults
+dependencies:
+  - python = 3.10
+  - pandas
+  - pip:
+    - scispacy 
