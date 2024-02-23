@@ -27,6 +27,12 @@ conda activate llm_ner
 ## Download Nodesynonymizer
 Please download the node synonymizer database from the `arax-databases.rtx.ai` and put it under the `./NodeSynonymizer` folder. Pleae note that this needs you to have permission to access this server.
 
+## Download ScispaCy training data
+Please download the `en_core_sci_lg` model from [here](https://allenai.github.io/scispacy/). In short, this can be accomplished with
+```bash
+pip install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.3/en_core_sci_lg-0.5.3.tar.gz
+```
+
 ## Run a draft NER class for biomedical concepts
 ```python
 # Import libraries
